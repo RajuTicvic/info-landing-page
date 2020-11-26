@@ -43,10 +43,12 @@ span.btn.input-group-text {
     50%{
         left:100px;
         opacity: 0.5;
+        transform: skewX(-20deg);
     }
     100%{
         left:0;
         opacity: 1;
+        transform: skewX(0deg);
     }
 }
 @keyframes formAnim {
