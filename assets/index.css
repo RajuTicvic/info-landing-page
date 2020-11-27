@@ -31,6 +31,10 @@ span.btn.input-group-text {
 .fa-arrow-right:before{
     color: #002865;
 }
+.hero{
+    animation: formAnim 2s linear 1s;
+    width: 300px;
+}
 .landing-copyright{
     font-size: 12px;
     opacity: 0.6;
