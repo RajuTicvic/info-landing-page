@@ -3,6 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: sans-serif;
+}
 
 .landing-bg-image{
     background-image: url(./background-sky.jpg);
@@ -28,12 +31,15 @@ span.btn.input-group-text {
     padding: 0 20px;
     background: #fff;
 }
-.fa-arrow-right:before{
-    color: #002865;
+.icon-arrow{
+    fill: #002865;
 }
 .hero{
     animation: formAnim 2s linear 1s;
     width: 300px;
+}
+.welocome-hero{
+    font-family: cursive;
 }
 .landing-copyright{
     font-size: 12px;
@@ -70,6 +76,9 @@ body .dropdown-menu{
     color: #002865;
 
 }
+svg{
+    width: 22px;
+}
 .dropdown.show .landing-select::after{
     transform: rotate(180deg);
 }
@@ -89,6 +98,7 @@ body .dropdown-menu{
         transform: skewX(0deg);
     }
 }
+
 @keyframes formAnim {
     0%{
         /* opacity: 0.2; */
